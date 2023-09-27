@@ -1,0 +1,111 @@
+<HTML>
+  <head>
+    <title>??????Guess?????</title>
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
+    <style>
+       body {
+         font-size: 20px;
+         color: navy;
+         background: black;
+         text-align: center;
+         font-size: 25px;
+
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 200px 1fr 1fr 50px;
+         gap: 10px;
+         }
+
+       div {
+         align-content: center;
+         }
+
+       .title {
+          grid-row-start: 1;
+          grid-row-end: 2;
+          grid-column-start: 1;
+          grid-column-end: 4;
+          }
+
+      .picture {
+          grid-row-start: 2;
+          grid-row-end: 3;
+          grid-column-start: 1;
+          grid-column-end: 2;
+        background: white solid;
+        border: 4px red solid;
+          }
+
+      .picture2 {
+          grid-row-start: 3;
+          grid-row-end: 4;
+          grid-column-start: 1;
+          grid-column-end: 2;
+        background: white;
+        border: 4px red solid;
+          }
+
+      .content {
+          grid-row-start: 2;
+          grid-row-end: 4;
+          grid-column-start: 2;
+          grid-column-end: 4;
+          background: white;
+          border: 4px red solid;
+          }
+
+
+       .footer {
+          grid-row-start: 4;
+          grid-row-end: 5;
+          grid-column-start: 1;
+          grid-column-end: 4;
+         background: white;
+         border: 4px red solid;
+          }
+
+
+   
+
+
+   
+   h1 {
+    font-size: 80px;
+
+   }
+
+   p {
+  border: 2px dashed black;
+   }
+
+
+   
+  </style>
+</head> 
+  
+<body>
+  <div class = "title"> 
+    <h1 onclick = "this.innerHTML = '?Guess?'; this.style='color: red;';" ondblclick = "this.innerHTML = '?Guess?'; this.style='color: white;';">?Guess?</h1>
+  </div>
+
+  <div class="content">
+    
+
+ </div>
+ <div class="picture1">
+     <img src="638x472.jpeg" onclick = "this.style = 'border: 2px white solid;';" width="95%" style="border: 2px white solid;"> 
+ </div>
+
+ <div class="picture2">
+     <img src="638x472.jpeg" onclick = "this.style = 'border: 2px black solid;';" width="95%" style="border: 2px white solid;"> 
+ </div>
+ <div class="footer">
+   
+  </div>
+  
+  
+  
+</body>
+</HTML>
